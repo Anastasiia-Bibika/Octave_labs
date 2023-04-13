@@ -1,0 +1,9 @@
+
+>> img = imread('eng2.jpg');
+>> imwrite(img,'eng2.bmp');
+>> imshow(img);
+>> image_bmp = imread('eng2.bmp');
+>> gray_img = rgb2gray(img_bmp);
+>> imshow(gray_img);
+>> imwrite(gray_img, 'eng2_gray.bmp', 'bmp');
+>> binary_img = im2bw(img,0.3);

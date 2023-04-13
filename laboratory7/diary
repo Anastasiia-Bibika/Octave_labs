@@ -1,0 +1,142 @@
+>>  img = imread('eng2.jpg');
+>> img = imread('eng2.jpg');
+>> inwrite(image,'eng.bmp');
+error: 'inwrite' undefined near line 1, column 1
+>> imwrite(image, 'eng2.bmp');
+>> imshow(eng2)
+error: 'eng2' undefined near line 1, column 8
+>> colormap('default')
+>> imshow(img);
+>> surface(img);
+error: surface: Z argument must be a matrix
+error: called from
+    surface>__surface__ at line 175 column 9
+    surface at line 68 column 21
+>> diary off
+>> img = imread('eng2.jpg');
+>> imwrite(img,'eng2.bmp');
+>> imshow(img);
+>> image_bmp = imwrite(img,'eng2.bmp');
+error: imwrite: function called with too many outputs
+error: called from
+    imwrite
+>> image_bmp = imread('eng2.bmp');
+>> gray_img = rgb2gray(img_bmp);
+error: 'img_bmp' undefined near line 1, column 21
+>> gray_img = rgb2gray(image_bmp);
+>> imshow(gray_img);
+>> imwrite(gray_img, 'eng2_gray.bmp', 'bmp');
+>> binary_img = im2bw(img,0.3);
+error: 'im2bw' undefined near line 1, column 14
+
+The 'im2bw' function belongs to the image package from Octave Forge
+which you have installed but not loaded.  To load the package, run 'pkg
+load image' from the Octave prompt.
+
+Please read <https://www.octave.org/missing.html> to learn how you can
+contribute missing functionality.
+>> imwrite(binary_img, 'eng2_binary.bmp', 'bmp');
+error: 'binary_img' undefined near line 1, column 9
+>> binary_img = im2bw(img,0.3);
+error: 'im2bw' undefined near line 1, column 14
+
+The 'im2bw' function belongs to the image package from Octave Forge
+which you have installed but not loaded.  To load the package, run 'pkg
+load image' from the Octave prompt.
+
+Please read <https://www.octave.org/missing.html> to learn how you can
+contribute missing functionality.
+>> pkg load image
+>> binary_img = im2bw(img,0.3);
+>> imwrite(binary_img, 'eng2_binary.bmp', 'bmp');
+>> lab7_upi
+error: imread: unable to find file 'C:\Users\Win10\lab7\eng2.jpg'
+error: called from
+    imageIO at line 80 column 5
+    imread at line 102 column 33
+    lab7_upi at line 1 column 5
+>> lab7_upi
+ans =
+
+    773   1841      3
+
+>> binary_img = im2bw(image_bmp,0.3);
+>> imwrite(binary_img, 'eng2_binary.bmp', 'bmp');
+>> lab7_upi2zavd
+error: 'getrect' undefined near line 4, column 8
+
+The 'getrect' function belongs to the image package from Octave Forge
+but has not yet been implemented.
+
+Please read <https://www.octave.org/missing.html> to learn how you can
+contribute missing functionality.
+error: called from
+    lab7_upi2zavd at line 4 column 6
+>> lab7_upi2zavd
+error: 'getrect' undefined near line 4, column 8
+
+The 'getrect' function belongs to the image package from Octave Forge
+but has not yet been implemented.
+
+Please read <https://www.octave.org/missing.html> to learn how you can
+contribute missing functionality.
+error: called from
+    lab7_upi2zavd at line 4 column 6
+>> lab7_upi2zavd
+error: 'getrect' undefined near line 4, column 8
+
+The 'getrect' function belongs to the image package from Octave Forge
+but has not yet been implemented.
+
+Please read <https://www.octave.org/missing.html> to learn how you can
+contribute missing functionality.
+error: called from
+    lab7_upi2zavd at line 4 column 6
+>> lab7_upi2zavd
+error: 'getrect' undefined near line 4, column 8
+
+The 'getrect' function belongs to the image package from Octave Forge
+but has not yet been implemented.
+
+Please read <https://www.octave.org/missing.html> to learn how you can
+contribute missing functionality.
+error: called from
+    lab7_upi2zavd at line 4 column 6
+>> lab7_upi2zavd
+error: 'getrect' undefined near line 4, column 8
+
+The 'getrect' function belongs to the image package from Octave Forge
+but has not yet been implemented.
+
+Please read <https://www.octave.org/missing.html> to learn how you can
+contribute missing functionality.
+error: called from
+    lab7_upi2zavd at line 4 column 6
+>> lab7_upi2zavd
+error: 'getrect' undefined near line 4, column 27
+
+The 'getrect' function belongs to the image package from Octave Forge
+but has not yet been implemented.
+
+Please read <https://www.octave.org/missing.html> to learn how you can
+contribute missing functionality.
+error: called from
+    lab7_upi2zavd at line 4 column 14
+>> lab7_upi2zavd
+error: 'getrect' undefined near line 4, column 27
+
+The 'getrect' function belongs to the image package from Octave Forge
+but has not yet been implemented.
+
+Please read <https://www.octave.org/missing.html> to learn how you can
+contribute missing functionality.
+error: called from
+    lab7_upi2zavd at line 4 column 14
+>> lab7_upi2zavd
+error: 'getrect' undefined near line 4, column 27
+
+The 'getrect' function belongs to the image package from Octave Forge
+but has not yet been implemented.
+
+Please read <https://www.octave.org/missing.html> to learn how you can
+contribute missing functionality.
